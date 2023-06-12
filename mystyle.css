@@ -1,4 +1,33 @@
-img{
-    height: 50px;
-    width: 50px;
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+}
+h1 {
+    text-align: center;
+    color: #cc99ff;
+}
+.container {
+    margin: 50px auto;
+    max-width: 1500px;
+}
+img {
+    display: inline;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: 1100px;
+}
+p {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.tartalom{
+    margin-top: 100px;
+}
+
+.udvozlo{
+   align-items: center;
+   display: flex;
 }
