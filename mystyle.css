@@ -1,6 +1,6 @@
 body {
     font-family:'Times New Roman', Times, serif;
-    background-color: #f4f4f4;
+    background-color: #ffffe6;
 }
 h1 {
     text-align: center;
@@ -30,4 +30,22 @@ p {
 .udvozlo{
    align-items: center;
    display: flex;
+}
+
+.udvozlo p{
+    font-size: 26px;
+}
+
+.szoveg{
+    font-size: 23px;
+}
+
+.kep{
+    margin-top: 25px;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
